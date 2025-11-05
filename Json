@@ -50,7 +50,7 @@
       "settings": {
         "servers": [
           {
-            "address": "google.com",
+            "address": "8.219.97.169",
             "ota": false,
             "password": "bpb-trojan",
             "port": 35212,
