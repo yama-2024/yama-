@@ -1,5 +1,5 @@
 {
-  "remarks": "TROJAN-INNNM",
+  "remarks": "TROJAN-IN",
   "log": {
     "loglevel": "none"
   },
@@ -287,7 +287,7 @@
   "stats": {}
 },
 {
-  "remarks": "TROJAN-INNNM",
+  "remarks": "TROJAN-OUT",
   "log": {
     "loglevel": "none"
   },
