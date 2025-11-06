@@ -1,6 +1,6 @@
 [
  {
-  "remarks": "TROJAN-IN",
+  "remarks": "TROJAN-IN-🏠",
   "log": {
     "loglevel": "none"
   },
@@ -288,7 +288,7 @@
   "stats": {}
 },
 {
-  "remarks": "TROJAN-IN",
+  "remarks": "TROJAN-OUT-🌲",
   "log": {
     "loglevel": "none"
   },
