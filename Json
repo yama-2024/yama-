@@ -1,6 +1,6 @@
 [
  {
-  "remarks": "TROJAN-IN-🏠",
+  "remarks": "TROJAN-IN",
   "log": {
     "loglevel": "none"
   },
@@ -288,7 +288,7 @@
   "stats": {}
 },
 {
-  "remarks": "TROJAN-OUT-🌲",
+  "remarks": "TROJAN-OUT",
   "log": {
     "loglevel": "none"
   },
@@ -339,10 +339,10 @@
       "settings": {
         "servers": [
           {
-            "address": "8.219.97.169",
+            "address": "91.149.238.88",
             "ota": false,
             "password": "bpb-trojan",
-            "port": 35212,
+            "port": 443,
             "level": 8
           }
         ]
