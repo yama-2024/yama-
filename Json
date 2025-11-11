@@ -51,10 +51,10 @@
       "settings": {
         "servers": [
           {
-            "address": "62.112.221.177",
+            "address": "64.64.248.18",
             "ota": false,
             "password": "bpb-trojan",
-            "port": 6633,
+            "port": 443,
             "level": 8
           }
         ]
@@ -339,10 +339,10 @@
       "settings": {
         "servers": [
           {
-            "address": "91.149.238.88",
+            "address": "62.112.221.177",
             "ota": false,
             "password": "bpb-trojan",
-            "port": 443,
+            "port": 6633,
             "level": 8
           }
         ]
