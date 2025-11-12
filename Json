@@ -576,7 +576,7 @@
   "stats": {}
  },
  {
-  "remarks": "SHADOWSOCKS-IN",
+  "remarks": "SHADOWSOCKS",
   "log": {
     "loglevel": "none"
   },
