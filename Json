@@ -51,10 +51,10 @@
       "settings": {
         "servers": [
           {
-            "address": "64.64.248.18",
+            "address": "8.218.36.133",
             "ota": false,
             "password": "bpb-trojan",
-            "port": 443,
+            "port": 9010,
             "level": 8
           }
         ]
