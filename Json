@@ -339,10 +339,10 @@
       "settings": {
         "servers": [
           {
-            "address": "62.112.221.177",
+            "address": "216.234.143.35",
             "ota": false,
             "password": "bpb-trojan",
-            "port": 6633,
+            "port": 443,
             "level": 8
           }
         ]
