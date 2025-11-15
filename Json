@@ -51,7 +51,7 @@
       "settings": {
         "servers": [
           {
-            "address": "64.64.248.18",
+            "address": "5.34.222.200",
             "ota": false,
             "password": "bpb-trojan",
             "port": 443,
