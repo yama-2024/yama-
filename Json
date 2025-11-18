@@ -18,7 +18,7 @@
       "sniffing": {
         "enabled": true,
         "destOverride": ["http", "tls"]
-      }
+    }
     },
     {
       "tag": "http-in",
@@ -31,7 +31,7 @@
       "sniffing": {
         "enabled": true,
         "destOverride": ["http", "tls"]
-      }
+    }
     },
     {
       "tag": "dns-in",
@@ -306,7 +306,7 @@
       "sniffing": {
         "enabled": true,
         "destOverride": ["http", "tls"]
-      }
+    }
     },
     {
       "tag": "http-in",
@@ -319,7 +319,7 @@
       "sniffing": {
         "enabled": true,
         "destOverride": ["http", "tls"]
-      }
+    }
     },
     {
       "tag": "dns-in",
