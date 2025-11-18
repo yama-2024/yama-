@@ -6,46 +6,44 @@
   },
   "inbounds": [
     {
-    "listen": "127.0.0.1",
-    "port": 49998,
-    "protocol": "socks",
-    "settings": {
-      "auth": "password",
-      "accounts": [
-        {
-          "user": "127.0.0.1",
-          "pass": "1080"
-        }
-      ],
-      "udp": true,
-      "ip": "127.0.0.1"
+      "tag": "socks-in",
+      "port": 10808,
+      "protocol": "socks",
+      "listen": "127.0.0.1",
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "userLevel": 8
+      },
+      "sniffing": {
+        "enabled": true,
+        "destOverride": ["http", "tls"]
+      }
     },
-    "tag": "socks-in",
-    "sniffing": {
-      "enabled": false,
-      "destOverride": ["http", "tls"]
-    }
-  },
-  {
-    "listen": "127.0.0.1",
-    "port": 49999,
-    "protocol": "http",
-    "settings": {
-      "accounts": [
-        {
-          "user": "127.0.0.1",
-          "pass": "8080"
-        }
-      ],
-      "timeout": 300
+    {
+      "tag": "http-in",
+      "port": 10809,
+      "protocol": "http",
+      "listen": "127.0.0.1",
+      "settings": {
+        "userLevel": 8
+      },
+      "sniffing": {
+        "enabled": true,
+        "destOverride": ["http", "tls"]
+      }
     },
-    "tag": "http-in",
-    "sniffing": {
-      "enabled": false,
-      "destOverride": ["http", "tls"]
+    {
+      "tag": "dns-in",
+      "port": 10853,
+      "protocol": "dokodemo-door",
+      "settings": {
+        "address": "8.8.8.8",
+        "network": "tcp,udp",
+        "port": 53
+      }
     }
-  }
-],
+  ],
   "outbounds": [
     {
       "tag": "proxy",
@@ -53,10 +51,10 @@
       "settings": {
         "servers": [
           {
-            "address": "91.149.243.182",
+            "address": "112.218.100.68",
             "ota": false,
             "password": "bpb-trojan",
-            "port": 7000,
+            "port": 30012,
             "level": 8
           }
         ]
@@ -296,46 +294,44 @@
   },
   "inbounds": [
     {
-    "listen": "127.0.0.1",
-    "port": 49998,
-    "protocol": "socks",
-    "settings": {
-      "auth": "password",
-      "accounts": [
-        {
-          "user": "127.0.0.1",
-          "pass": "1080"
-        }
-      ],
-      "udp": true,
-      "ip": "127.0.0.1"
+      "tag": "socks-in",
+      "port": 10808,
+      "protocol": "socks",
+      "listen": "127.0.0.1",
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "userLevel": 8
+      },
+      "sniffing": {
+        "enabled": true,
+        "destOverride": ["http", "tls"]
+      }
     },
-    "tag": "socks-in",
-    "sniffing": {
-      "enabled": false,
-      "destOverride": ["http", "tls"]
-    }
-  },
-  {
-    "listen": "127.0.0.1",
-    "port": 49999,
-    "protocol": "http",
-    "settings": {
-      "accounts": [
-        {
-          "user": "127.0.0.1",
-          "pass": "8080"
-        }
-      ],
-      "timeout": 300
+    {
+      "tag": "http-in",
+      "port": 10809,
+      "protocol": "http",
+      "listen": "127.0.0.1",
+      "settings": {
+        "userLevel": 8
+      },
+      "sniffing": {
+        "enabled": true,
+        "destOverride": ["http", "tls"]
+      }
     },
-    "tag": "http-in",
-    "sniffing": {
-      "enabled": false,
-      "destOverride": ["http", "tls"]
+    {
+      "tag": "dns-in",
+      "port": 10853,
+      "protocol": "dokodemo-door",
+      "settings": {
+        "address": "8.8.8.8",
+        "network": "tcp,udp",
+        "port": 53
+      }
     }
-  }
-],
+  ],
   "outbounds": [
     {
       "tag": "proxy",
